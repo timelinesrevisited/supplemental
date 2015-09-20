@@ -7,24 +7,14 @@
 	<style type="text/css"></style>
 	<script>window["_GOOG_TRANS_EXT_VER"] = "1";</script>
 	<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="pre-loader.js"></script>
 </head>
 
 <body>
 
 	<script>
 
-		function preload(arrayOfImages) {
-	    $(arrayOfImages).each(function(){
-	        $('<img/>')[0].src = this;
-					console.log("preloading " + this);
-	        // Alternatively you could use:
-	        // (new Image()).src = this;
-	    });
-		}
-
-		$(window).load(function(){
-
-			preload([
+			var imagesArray = [
 				"LAYOUT-ChronLinUni-ChronLinFac.gif",
 				"LAYOUT-ChronLinUni-ChronLinSeg.gif",
 				"LAYOUT-ChronRadUni-ChronRadFac.gif",
@@ -60,7 +50,28 @@
 				"SCALE-RelRadFac-SeqRadFac.gif",
 				"SCALE-SeqLinUni-SeqIntDurLinUni.gif",
 				"SeqCurUni-drawing.gif"
-			]);
+			];
+
+		// instantiate the pre-loader with an onProgress and onComplete handler
+		new preLoader(imagesArray, {
+	    onProgress: function(img, imageEl, index){
+	        // fires every time an image is done or errors.
+	        // imageEl will be falsy if error
+	        console.log('just ' +  (!imageEl ? 'failed: ' : 'loaded: ') + img);
+
+	        // imageContainer.appendChild(imageEl);
+	        // can access any propery of this
+	        console.log(this.completed.length + this.errors.length + ' / ' + this.queue.length + ' done');
+	    },
+	    onComplete: function(loaded, errors){
+	        // fires when whole list is done. cache is primed.
+	        console.log('done', loaded);
+	        // imageContainer.style.display = 'block';
+
+	        if (errors){
+	            console.log('the following failed', errors);
+	        }
+	    }
 		});
 
     $(function() {
