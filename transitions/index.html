@@ -16,48 +16,52 @@
 		function preload(arrayOfImages) {
 	    $(arrayOfImages).each(function(){
 	        $('<img/>')[0].src = this;
+					console.log("preloading " + this);
 	        // Alternatively you could use:
 	        // (new Image()).src = this;
 	    });
 		}
 
-		preload([
-			"LAYOUT-ChronLinUni-ChronLinFac.gif",
-			"LAYOUT-ChronLinUni-ChronLinSeg.gif",
-			"LAYOUT-ChronRadUni-ChronRadFac.gif",
-			"LAYOUT-ChronRadUni-ChronRadSeg.gif",
-			"LAYOUT-LogLinUni-LogLinFac.gif",
-			"LAYOUT-SeqLinUni-SeqLinFac.gif",
-			"LAYOUT-SeqRadUni-SeqRadFac.gif",
-			"LAYOUT-SeqSpiUni-SeqSpiFac.gif",
-			"REP-ChronLinFac-ChronRadFac.gif",
-			"REP-ChronLinSeg-ChronRadSeg.gif",
-			"REP-ChronLinUni-ChronRadUni.gif",
-			"REP-RelLinFac-RelRadFac.gif",
-			"REP-SeqLinFac-SeqRadFac.gif",
-			"REP-SeqLinFac-SeqSpiFac.gif",
-			"REP-SeqLinUni-SeqCurUni.gif",
-			"REP-SeqLinUni-SeqRadUni.gif",
-			"REP-SeqLinUni-SeqSpiUni.gif",
-			"REP-SeqRadFac-SeqSpiFac.gif",
-			"REP-SeqRadUni-SeqCurUni.gif",
-			"REP-SeqRadUni-SeqSpiUni.gif",
-			"REP-SeqSpiUni-SeqCurUni.gif",
-			"SCALE-ChronLinFac-LogLinFac.gif",
-			"SCALE-ChronLinFac-RelLinFac.gif",
-			"SCALE-ChronLinFac-SeqLinFac.gif",
-			"SCALE-ChronLinUni-LogLinUni.gif",
-			"SCALE-ChronLinUni-SeqLinUni.gif",
-			"SCALE-ChronRadFac-RelRadFac.gif",
-			"SCALE-ChronRadFac-SeqRadFac.gif",
-			"SCALE-ChronRadUni-SeqRadUni.gif",
-			"SCALE-LogLinFac-SeqLinFac.gif",
-			"SCALE-LogLinUni-SeqLinUni.gif",
-			"SCALE-RelLinFac-SeqLinFac.gif",
-			"SCALE-RelRadFac-SeqRadFac.gif",
-			"SCALE-SeqLinUni-SeqIntDurLinUni.gif",
-			"SeqCurUni-drawing.gif"
-		]);
+		$(window).load(function(){
+
+			preload([
+				"LAYOUT-ChronLinUni-ChronLinFac.gif",
+				"LAYOUT-ChronLinUni-ChronLinSeg.gif",
+				"LAYOUT-ChronRadUni-ChronRadFac.gif",
+				"LAYOUT-ChronRadUni-ChronRadSeg.gif",
+				"LAYOUT-LogLinUni-LogLinFac.gif",
+				"LAYOUT-SeqLinUni-SeqLinFac.gif",
+				"LAYOUT-SeqRadUni-SeqRadFac.gif",
+				"LAYOUT-SeqSpiUni-SeqSpiFac.gif",
+				"REP-ChronLinFac-ChronRadFac.gif",
+				"REP-ChronLinSeg-ChronRadSeg.gif",
+				"REP-ChronLinUni-ChronRadUni.gif",
+				"REP-RelLinFac-RelRadFac.gif",
+				"REP-SeqLinFac-SeqRadFac.gif",
+				"REP-SeqLinFac-SeqSpiFac.gif",
+				"REP-SeqLinUni-SeqCurUni.gif",
+				"REP-SeqLinUni-SeqRadUni.gif",
+				"REP-SeqLinUni-SeqSpiUni.gif",
+				"REP-SeqRadFac-SeqSpiFac.gif",
+				"REP-SeqRadUni-SeqCurUni.gif",
+				"REP-SeqRadUni-SeqSpiUni.gif",
+				"REP-SeqSpiUni-SeqCurUni.gif",
+				"SCALE-ChronLinFac-LogLinFac.gif",
+				"SCALE-ChronLinFac-RelLinFac.gif",
+				"SCALE-ChronLinFac-SeqLinFac.gif",
+				"SCALE-ChronLinUni-LogLinUni.gif",
+				"SCALE-ChronLinUni-SeqLinUni.gif",
+				"SCALE-ChronRadFac-RelRadFac.gif",
+				"SCALE-ChronRadFac-SeqRadFac.gif",
+				"SCALE-ChronRadUni-SeqRadUni.gif",
+				"SCALE-LogLinFac-SeqLinFac.gif",
+				"SCALE-LogLinUni-SeqLinUni.gif",
+				"SCALE-RelLinFac-SeqLinFac.gif",
+				"SCALE-RelRadFac-SeqRadFac.gif",
+				"SCALE-SeqLinUni-SeqIntDurLinUni.gif",
+				"SeqCurUni-drawing.gif"
+			]);
+		});
 
     $(function() {
 
