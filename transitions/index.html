@@ -1,0 +1,886 @@
+<html xmnls="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Timelines Revisited: Timeline Transitions</title>
+	<link rel = "stylesheet" type="text/css" href="style.css" />
+	<link rel="shortcut icon" href="../favicon.ico" />
+	<style type="text/css"></style>
+	<script>window["_GOOG_TRANS_EXT_VER"] = "1";</script>
+	<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+</head>
+
+<body>
+
+	<div id="content-wrapper">
+
+		<div id="header-wrapper">
+			 <div id = "header">
+				<div id="logo">
+					<div id="page-title">
+						Timelines Revisited
+					</div>
+					<div id="tagline">
+						A Principled Design Space for Expressive Storytelling
+					</div>
+				</div>
+				<!--/logo-->
+				<div id="nav" class="right">
+					<a href="#transitions_top">top</a>
+					<a href="../index.html">supplemental home</a>
+				</div>
+				<!--/nav-->
+			</div>
+			<!--/header-->
+		</div>
+
+		<div id="content">
+
+			<div id="left-column">
+
+				<h3>Supplemental Material:</h3>
+				<h4>A Gallery of Timeline Transitions</h4>
+
+				<p>Jump to a particular transition type:</p>
+
+				<p><a href="#representation">Representation (x13)</a></p>
+				<p><a href="#scale">Scale (x13)</a></p>
+				<p><a href="#layout">Layout (x8)</a></p>
+				<p><a href="#curve">Arbitrary curve drawing</a></p>
+			</div>
+			<!--/left-column-->
+
+			<div id="right-column">
+
+				<div class="pub">
+					<div class="text">
+						<span id="transitions_top" class="anchor"></span>
+						<p><strong>Hover</strong> over any of the images below to view a looped animated transition between the pair of visualizations. Each animation is roughly 20s in length.</p>
+						<p><strong>Click</strong> on the images to view the animated transition in a new tab.</p>
+						<p>Each animated transition shown below is described by a pair of tuples from our timeline visualization design space, described using the following format:</p>
+						<p><strong>[Representation] | [Scale] | [Layout]</strong> and <strong>[Representation] | [Scale] | [Layout]</strong></p>
+					</div>
+				</div>
+
+				<!--REPRESENTATION TRANSITIONS-->
+
+				<div class="pub">
+					<div class="text">
+						<span id="representation" class="anchor"></span>
+						<h2>REPRESENTATION TRANSITIONS</h2>
+					</div>
+				</div>
+
+				<div class="pub">
+					<div class="text">
+
+						<p>
+							<strong>Transition between: </strong>
+							<span class="gallery_index"><span class="gallery_index_invisible">0</span>1</span>
+							<img class="dimension_icon_rep" src="REP-Lin.png" width="40" alt="Linear" title="Linear">
+							<img class="dimension_icon_scale" src="SCALE-Chron.png" width="40" alt="Chronological" title="Chronological">
+							<img class="dimension_icon_layout" src="LAYOUT-Uni.png" width="40" alt="Unified" title="Unified">
+							<strong>and</strong>
+							<span class="gallery_index"><span class="gallery_index_invisible">0</span>4</span>
+							<img class="dimension_icon_rep" src="REP-Rad.png" width="40" alt="Radial" title="Radial">
+							<img class="dimension_icon_scale" src="SCALE-Chron.png" width="40" alt="Chronological" title="Chronological">
+							<img class="dimension_icon_layout" src="LAYOUT-Uni.png" width="40" alt="Unified" title="Unified">
+						</p>
+
+						<div class="gif_container"><a href="REP-ChronLinUni-ChronRadUni.gif" target="_blank"><img class="transition_gif" id="REP-ChronLinUni-ChronRadUni" src="REP-ChronLinUni-ChronRadUni.png" width="560"></a></div>
+						<p><strong>Transition type</strong>: Representation transition between <strong>Linear</strong> and <strong>Radial</strong>.</p>
+						<p><strong>Data</strong>: Author's biographical data, coloured by activity type.</p>
+					</div>
+				</div>
+
+				<div class="pub">
+					<div class="text">
+
+						<p>
+							<strong>Transition between: </strong>
+							<span class="gallery_index"><span class="gallery_index_invisible">0</span>2</span>
+							<img class="dimension_icon_rep" src="REP-Lin.png" width="40" alt="Linear" title="Linear">
+							<img class="dimension_icon_scale" src="SCALE-Chron.png" width="40" alt="Chronological" title="Chronological">
+							<img class="dimension_icon_layout" src="LAYOUT-Fac.png" width="40" alt="Faceted" title="Faceted">
+							<strong>and</strong>
+							<span class="gallery_index"><span class="gallery_index_invisible">0</span>5</span>
+							<img class="dimension_icon_rep" src="REP-Rad.png" width="40" alt="Radial" title="Radial">
+							<img class="dimension_icon_scale" src="SCALE-Chron.png" width="40" alt="Chronological" title="Chronological">
+							<img class="dimension_icon_layout" src="LAYOUT-Fac.png" width="40" alt="Faceted" title="Faceted">
+						</p>
+
+						<div class="gif_container"><a href="REP-ChronLinFac-ChronRadFac.gif" target="_blank"><img class="transition_gif" id="REP-ChronLinFac-ChronRadFac" src="REP-ChronLinFac-ChronRadFac.png" width="560"></a></div>
+						<p><strong>Transition type</strong>: Representation transition between <strong>Linear</strong> and <strong>Radial</strong>.</p>
+						<p><strong>Data</strong>: <a href="https://www.flickr.com/photos/accurat/8961090259/" target="_blank">Visualising painters' lives (by Accurat)</a>, coloured by event type (lifespan, artistic period, travel, lover, son, daughter), faceted by painter.</p>
+					</div>
+				</div>
+
+				<div class="pub">
+					<div class="text">
+
+						<p>
+							<strong>Transition between: </strong>
+							<span class="gallery_index"><span class="gallery_index_invisible">0</span>3</span>
+							<img class="dimension_icon_rep" src="REP-Lin.png" width="40" alt="Linear" title="Linear">
+							<img class="dimension_icon_scale" src="SCALE-Chron.png" width="40" alt="Chronological" title="Chronological">
+							<img class="dimension_icon_layout" src="LAYOUT-Seg.png" width="40" alt="Segmented" title="Segmented">
+							<strong>and</strong>
+							<span class="gallery_index"><span class="gallery_index_invisible">0</span>6</span>
+							<img class="dimension_icon_rep" src="REP-Rad.png" width="40" alt="Radial" title="Radial">
+							<img class="dimension_icon_scale" src="SCALE-Chron.png" width="40" alt="Chronological" title="Chronological">
+							<img class="dimension_icon_layout" src="LAYOUT-Seg.png" width="40" alt="Segmented" title="Segmented">
+						</p>
+
+						<div class="gif_container"><a href="REP-ChronLinSeg-ChronRadSeg.gif" target="_blank"><img class="transition_gif" id="REP-ChronLinSeg-ChronRadSeg" src="REP-ChronLinSeg-ChronRadSeg.png" width="560"></a></div>
+						<p><strong>Transition type</strong>: Representation transition between <strong>Linear</strong> and <strong>Radial</strong>.</p>
+						<p><strong>Data</strong>: <a href="https://en.wikipedia.org/wiki/Timeline_of_United_States_military_operations" target="_blank">Timeline of United States military operations (Wikipedia)</a>, coloured by region, segmented by century.</p>
+					</div>
+				</div>
+
+				<div class="pub">
+					<div class="text">
+
+						<p>
+							<strong>Transition between: </strong>
+							<span class="gallery_index"><span class="gallery_index_invisible">0</span>9</span>
+							<img class="dimension_icon_rep" src="REP-Lin.png" width="40" alt="Linear" title="Linear">
+							<img class="dimension_icon_scale" src="SCALE-Rel.png" width="40" alt="Relative" title="Relative">
+							<img class="dimension_icon_layout" src="LAYOUT-Fac.png" width="40" alt="Faceted" title="Faceted">
+							<strong>and</strong>
+							<span class="gallery_index">10</span>
+							<img class="dimension_icon_rep" src="REP-Rad.png" width="40" alt="Radial" title="Radial">
+							<img class="dimension_icon_scale" src="SCALE-Rel.png" width="40" alt="Relative" title="Relative">
+							<img class="dimension_icon_layout" src="LAYOUT-Fac.png" width="40" alt="Faceted" title="Faceted">
+						</p>
+
+						<div class="gif_container"><a href="REP-RelLinFac-RelRadFac.gif" target="_blank"><img class="transition_gif" id="REP-RelLinFac-RelRadFac" src="REP-RelLinFac-RelRadFac.png" width="560"></a></div>
+						<p><strong>Transition type</strong>: Representation transition between <strong>Linear</strong> and <strong>Radial</strong>.</p>
+						<p><strong>Data</strong>: <a href="https://www.flickr.com/photos/accurat/8961090259/" target="_blank">Visualising painters' lives (by Accurat)</a>, coloured by event type (lifespan, artistic period, travel, lover, son, daughter), faceted by painter.</p>
+					</div>
+				</div>
+
+				<div class="pub">
+					<div class="text">
+
+						<p>
+							<strong>Transition between: </strong>
+							<span class="gallery_index">13</span>
+							<img class="dimension_icon_rep" src="REP-Lin.png" width="40" alt="Linear" title="Linear">
+							<img class="dimension_icon_scale" src="SCALE-Seq.png" width="40" alt="Sequential" title="Sequential">
+							<img class="dimension_icon_layout" src="LAYOUT-Uni.png" width="40" alt="Unified" title="Unified">
+							<strong>and</strong>
+							<span class="gallery_index">15</span>
+							<img class="dimension_icon_rep" src="REP-Rad.png" width="40" alt="Radial" title="Radial">
+							<img class="dimension_icon_scale" src="SCALE-Seq.png" width="40" alt="Sequential" title="Sequential">
+							<img class="dimension_icon_layout" src="LAYOUT-Uni.png" width="40" alt="Unified" title="Unified">
+						</p>
+
+						<div class="gif_container"><a href="REP-SeqLinUni-SeqRadUni.gif" target="_blank"><img class="transition_gif" id="REP-SeqLinUni-SeqRadUni" src="REP-SeqLinUni-SeqRadUni.png" width="560"></a></div>
+						<p><strong>Transition type</strong>: Representation transition between <strong>Linear</strong> and <strong>Radial</strong>.</p>
+						<p><strong>Data</strong>: <a href="https://en.wikipedia.org/wiki/Tstrongplate:Timeline_US_Presidents" target="_blank">Timeline US Presidents (Wikipedia)</a>, coloured by political party.</p>
+					</div>
+				</div>
+
+				<div class="pub">
+					<div class="text">
+
+						<p>
+							<strong>Transition between: </strong>
+							<span class="gallery_index">14</span>
+							<img class="dimension_icon_rep" src="REP-Lin.png" width="40" alt="Linear" title="Linear">
+							<img class="dimension_icon_scale" src="SCALE-Seq.png" width="40" alt="Sequential" title="Sequential">
+							<img class="dimension_icon_layout" src="LAYOUT-Fac.png" width="40" alt="Faceted" title="Faceted">
+							<strong>and</strong>
+							<span class="gallery_index">16</span>
+							<img class="dimension_icon_rep" src="REP-Rad.png" width="40" alt="Radial" title="Radial">
+							<img class="dimension_icon_scale" src="SCALE-Seq.png" width="40" alt="Sequential" title="Sequential">
+							<img class="dimension_icon_layout" src="LAYOUT-Fac.png" width="40" alt="Faceted" title="Faceted">
+						</p>
+
+						<div class="gif_container"><a href="REP-SeqLinFac-SeqRadFac.gif" target="_blank"><img class="transition_gif" id="REP-SeqLinFac-SeqRadFac" src="REP-SeqLinFac-SeqRadFac.png" width="560"></a></div>
+						<p><strong>Transition type</strong>: Representation transition between <strong>Linear</strong> and <strong>Radial</strong>.</p>
+						<p><strong>Data</strong>: Tenures of Heads of State of G7 countries, coloured by political leaning (left, centrist, right, NA), faceted by country.</p>
+					</div>
+				</div>
+
+				<div class="pub">
+					<div class="text">
+
+						<p>
+							<strong>Transition between: </strong>
+							<span class="gallery_index">14</span>
+							<img class="dimension_icon_rep" src="REP-Lin.png" width="40" alt="Linear" title="Linear">
+							<img class="dimension_icon_scale" src="SCALE-Seq.png" width="40" alt="Sequential" title="Sequential">
+							<img class="dimension_icon_layout" src="LAYOUT-Uni.png" width="40" alt="Unified" title="Unified">
+							<strong>and</strong>
+							<span class="gallery_index">17</span>
+							<img class="dimension_icon_rep" src="REP-Spi.png" width="40" alt="Spiral" title="Spiral">
+							<img class="dimension_icon_scale" src="SCALE-Seq.png" width="40" alt="Sequential" title="Sequential">
+							<img class="dimension_icon_layout" src="LAYOUT-Uni.png" width="40" alt="Unified" title="Unified">
+						</p>
+
+						<div class="gif_container"><a href="REP-SeqLinUni-SeqSpiUni.gif" target="_blank"><img class="transition_gif" id="REP-SeqLinUni-SeqSpiUni" src="REP-SeqLinUni-SeqSpiUni.png" width="560"></a></div>
+						<p><strong>Transition type</strong>: Representation transition between <strong>Linear</strong> and <strong>Spiral</strong>.</p>
+						<p><strong>Data</strong>: <a href="https://en.wikipedia.org/wiki/Tstrongplate:Timeline_US_Presidents" target="_blank">Timeline US Presidents (Wikipedia)</a>, coloured by political party.</p>
+					</div>
+				</div>
+
+				<div class="pub">
+					<div class="text">
+
+						<p>
+							<strong>Transition between: </strong>
+							<span class="gallery_index">14</span>
+							<img class="dimension_icon_rep" src="REP-Lin.png" width="40" alt="Linear" title="Linear">
+							<img class="dimension_icon_scale" src="SCALE-Seq.png" width="40" alt="Sequential" title="Sequential">
+							<img class="dimension_icon_layout" src="LAYOUT-Fac.png" width="40" alt="Faceted" title="Faceted">
+							<strong>and</strong>
+							<span class="gallery_index">18</span>
+							<img class="dimension_icon_rep" src="REP-Spi.png" width="40" alt="Spiral" title="Spiral">
+							<img class="dimension_icon_scale" src="SCALE-Seq.png" width="40" alt="Sequential" title="Sequential">
+							<img class="dimension_icon_layout" src="LAYOUT-Fac.png" width="40" alt="Faceted" title="Faceted">
+						</p>
+
+						<div class="gif_container"><a href="REP-SeqLinFac-SeqSpiFac.gif" target="_blank"><img class="transition_gif" id="REP-SeqLinFac-SeqSpiFac" src="REP-SeqLinFac-SeqSpiFac.png" width="560"></a></div>
+						<p><strong>Transition type</strong>: Representation transition between <strong>Linear</strong> and <strong>Spiral</strong>.</p>
+						<p><strong>Data</strong>: Tenures of Heads of State of G7 countries, coloured by political leaning (left, centrist, right, NA), faceted by country.</p>
+					</div>
+				</div>
+
+				<div class="pub">
+					<div class="text">
+
+						<p>
+							<strong>Transition between: </strong>
+							<span class="gallery_index">13</span>
+							<img class="dimension_icon_rep" src="REP-Lin.png" width="40" alt="Linear" title="Linear">
+							<img class="dimension_icon_scale" src="SCALE-Seq.png" width="40" alt="Sequential" title="Sequential">
+							<img class="dimension_icon_layout" src="LAYOUT-Uni.png" width="40" alt="Unified" title="Unified">
+							<strong>and</strong>
+							<span class="gallery_index">19</span>
+							<img class="dimension_icon_rep" src="REP-Cur.png" width="40" alt="Arbitrary" title="Arbitrary">
+							<img class="dimension_icon_scale" src="SCALE-Seq.png" width="40" alt="Sequential" title="Sequential">
+							<img class="dimension_icon_layout" src="LAYOUT-Uni.png" width="40" alt="Unified" title="Unified">
+						</p>
+
+						<div class="gif_container"><a href="REP-SeqLinUni-SeqCurUni.gif" target="_blank"><img class="transition_gif" id="REP-SeqLinUni-SeqCurUni" src="REP-SeqLinUni-SeqCurUni.png" width="560"></a></div>
+						<p><strong>Transition type</strong>: Representation transition between <strong>Linear</strong> and <strong>Arbitrary</strong>.</p>
+						<p><strong>Data</strong>: <a href="https://en.wikipedia.org/wiki/Tstrongplate:Timeline_US_Presidents" target="_blank">Timeline US Presidents (Wikipedia)</a>, coloured by political party.</p>
+					</div>
+				</div>
+
+				<div class="pub">
+					<div class="text">
+
+						<p>
+							<strong>Transition between: </strong>
+							<span class="gallery_index">15</span>
+							<img class="dimension_icon_rep" src="REP-Rad.png" width="40" alt="Radial" title="Radial">
+							<img class="dimension_icon_scale" src="SCALE-Seq.png" width="40" alt="Sequential" title="Sequential">
+							<img class="dimension_icon_layout" src="LAYOUT-Uni.png" width="40" alt="Unified" title="Unified">
+							<strong>and</strong>
+							<span class="gallery_index">17</span>
+							<img class="dimension_icon_rep" src="REP-Spi.png" width="40" alt="Spiral" title="Spiral">
+							<img class="dimension_icon_scale" src="SCALE-Seq.png" width="40" alt="Sequential" title="Sequential">
+							<img class="dimension_icon_layout" src="LAYOUT-Uni.png" width="40" alt="Unified" title="Unified">
+						</p>
+
+						<div class="gif_container"><a href="REP-SeqRadUni-SeqSpiUni.gif" target="_blank"><img class="transition_gif" id="REP-SeqRadUni-SeqSpiUni" src="REP-SeqRadUni-SeqSpiUni.png" width="560"></a></div>
+						<p><strong>Transition type</strong>: Representation transition between <strong>Radial</strong> and <strong>Spiral</strong>.</p>
+						<p><strong>Data</strong>: <a href="https://en.wikipedia.org/wiki/Tstrongplate:Timeline_US_Presidents" target="_blank">Timeline US Presidents (Wikipedia)</a>, coloured by political party.</p>
+					</div>
+				</div>
+
+				<div class="pub">
+					<div class="text">
+
+						<p>
+							<strong>Transition between: </strong>
+							<span class="gallery_index">16</span>
+							<img class="dimension_icon_rep" src="REP-Rad.png" width="40" alt="Radial" title="Radial">
+							<img class="dimension_icon_scale" src="SCALE-Seq.png" width="40" alt="Sequential" title="Sequential">
+							<img class="dimension_icon_layout" src="LAYOUT-Fac.png" width="40" alt="Faceted" title="Faceted">
+							<strong>and</strong>
+							<span class="gallery_index">18</span>
+							<img class="dimension_icon_rep" src="REP-Spi.png" width="40" alt="Spiral" title="Spiral">
+							<img class="dimension_icon_scale" src="SCALE-Seq.png" width="40" alt="Sequential" title="Sequential">
+							<img class="dimension_icon_layout" src="LAYOUT-Fac.png" width="40" alt="Faceted" title="Faceted">
+						</p>
+
+						<div class="gif_container"><a href="REP-SeqRadFac-SeqSpiFac.gif" target="_blank"><img class="transition_gif" id="REP-SeqRadFac-SeqSpiFac" src="REP-SeqRadFac-SeqSpiFac.png" width="560"></a></div>
+						<p><strong>Transition type</strong>: Representation transition between <strong>Radial</strong> and <strong>Sprial</strong>.</p>
+						<p><strong>Data</strong>: Tenures of Heads of State of G7 countries, coloured by political leaning (left, centrist, right, NA), faceted by country.</p>
+					</div>
+				</div>
+
+				<div class="pub">
+					<div class="text">
+
+						<p>
+							<strong>Transition between: </strong>
+							<span class="gallery_index">15</span>
+							<img class="dimension_icon_rep" src="REP-Rad.png" width="40" alt="Radial" title="Radial">
+							<img class="dimension_icon_scale" src="SCALE-Seq.png" width="40" alt="Sequential" title="Sequential">
+							<img class="dimension_icon_layout" src="LAYOUT-Uni.png" width="40" alt="Unified" title="Unified">
+							<strong>and</strong>
+							<span class="gallery_index">19</span>
+							<img class="dimension_icon_rep" src="REP-Cur.png" width="40" alt="Arbitrary" title="Arbitrary">
+							<img class="dimension_icon_scale" src="SCALE-Seq.png" width="40" alt="Sequential" title="Sequential">
+							<img class="dimension_icon_layout" src="LAYOUT-Uni.png" width="40" alt="Unified" title="Unified">
+						</p>
+
+						<div class="gif_container"><a href="REP-SeqRadUni-SeqCurUni.gif" target="_blank"><img class="transition_gif" id="REP-SeqRadUni-SeqCurUni" src="REP-SeqRadUni-SeqCurUni.png" width="560"></a></div>
+						<p><strong>Transition type</strong>: Representation transition between <strong>Radial</strong> and <strong>Arbitrary</strong>.</p>
+						<p><strong>Data</strong>: <a href="https://en.wikipedia.org/wiki/Tstrongplate:Timeline_US_Presidents" target="_blank">Timeline US Presidents (Wikipedia)</a>, coloured by political party.</p>
+					</div>
+				</div>
+
+				<div class="pub">
+					<div class="text">
+
+						<p>
+							<strong>Transition between: </strong>
+							<span class="gallery_index">17</span>
+							<img class="dimension_icon_rep" src="REP-Spi.png" width="40" alt="Spiral" title="Spiral">
+							<img class="dimension_icon_scale" src="SCALE-Seq.png" width="40" alt="Sequential" title="Sequential">
+							<img class="dimension_icon_layout" src="LAYOUT-Uni.png" width="40" alt="Unified" title="Unified">
+							<strong>and</strong>
+							<span class="gallery_index">19</span>
+							<img class="dimension_icon_rep" src="REP-Cur.png" width="40" alt="Arbitrary" title="Arbitrary">
+							<img class="dimension_icon_scale" src="SCALE-Seq.png" width="40" alt="Sequential" title="Sequential">
+							<img class="dimension_icon_layout" src="LAYOUT-Uni.png" width="40" alt="Unified" title="Unified">
+						</p>
+
+						<div class="gif_container"><a href="REP-SeqSpiUni-SeqCurUni.gif" target="_blank"><img class="transition_gif" id="REP-SeqSpiUni-SeqCurUni" src="REP-SeqSpiUni-SeqCurUni.png" width="560"></a></div>
+						<p><strong>Transition type</strong>: Representation transition between <strong>Spiral</strong> and <strong>Arbitrary</strong>.</p>
+						<p><strong>Data</strong>: <a href="https://en.wikipedia.org/wiki/Tstrongplate:Timeline_US_Presidents" target="_blank">Timeline US Presidents (Wikipedia)</a>, coloured by political party.</p>
+					</div>
+				</div>
+
+				<!--SCALE TRANSITIONS-->
+
+				<div class="pub">
+					<div class="text">
+						<span id="scale" class="anchor"></span>
+						<h2>SCALE TRANSITIONS</h2>
+					</div>
+				</div>
+
+				<div class="pub">
+					<div class="text">
+
+						<p>
+							<strong>Transition between: </strong>
+							<span class="gallery_index"><span class="gallery_index_invisible">0</span>1</span>
+							<img class="dimension_icon_rep" src="REP-Lin.png" width="40" alt="Linear" title="Linear">
+							<img class="dimension_icon_scale" src="SCALE-Chron.png" width="40" alt="Chronological" title="Chronological">
+							<img class="dimension_icon_layout" src="LAYOUT-Uni.png" width="40" alt="Unified" title="Unified">
+							<strong>and</strong>
+							<span class="gallery_index">11</span>
+							<img class="dimension_icon_rep" src="REP-Lin.png" width="40" alt="Linear" title="Linear">
+							<img class="dimension_icon_scale" src="SCALE-Log.png" width="40" alt="Logarithmic" title="Logarithmic">
+							<img class="dimension_icon_layout" src="LAYOUT-Uni.png" width="40" alt="Unified" title="Unified">
+						</p>
+
+						<div class="gif_container"><a href="SCALE-ChronLinUni-LogLinUni.gif" target="_blank"><img class="transition_gif" id="SCALE-ChronLinUni-LogLinUni" src="SCALE-ChronLinUni-LogLinUni.png" width="560"></a></div>
+						<p><strong>Transition type</strong>: Scale transition between <strong>Chronological</strong> and <strong>Logarithmic</strong>.</p>
+						<p><strong>Data</strong>: <a href="http://bl.ocks.org/rengel-de/5603464" target="_blank">Lives of Western Philosophers (by rengel-de)</a>, coloured by region.</p>
+					</div>
+
+				</div>
+
+				<div class="pub">
+					<div class="text">
+
+						<p>
+							<strong>Transition between: </strong>
+							<span class="gallery_index"><span class="gallery_index_invisible">0</span>1</span>
+							<img class="dimension_icon_rep" src="REP-Lin.png" width="40" alt="Linear" title="Linear">
+							<img class="dimension_icon_scale" src="SCALE-Chron.png" width="40" alt="Chronological" title="Chronological">
+							<img class="dimension_icon_layout" src="LAYOUT-Uni.png" width="40" alt="Unified" title="Unified">
+							<strong>and</strong>
+							<span class="gallery_index">13</span>
+							<img class="dimension_icon_rep" src="REP-Lin.png" width="40" alt="Linear" title="Linear">
+							<img class="dimension_icon_scale" src="SCALE-Seq.png" width="40" alt="Sequential" title="Sequential">
+							<img class="dimension_icon_layout" src="LAYOUT-Uni.png" width="40" alt="Unified" title="Unified">
+						</p>
+
+						<div class="gif_container"><a href="SCALE-ChronLinUni-SeqLinUni.gif" target="_blank"><img class="transition_gif" id="SCALE-ChronLinUni-SeqLinUni" src="SCALE-ChronLinUni-SeqLinUni.png" width="560"></a></div>
+						<p><strong>Transition type</strong>: Scale transition between <strong>Chronological</strong> and <strong>Sequential</strong>.</p>
+						<p><strong>Data</strong>: Author's biographical data, coloured by activity type.</p>
+					</div>
+				</div>
+
+				<div class="pub">
+					<div class="text">
+
+						<p>
+							<strong>Transition between: </strong>
+							<span class="gallery_index"><span class="gallery_index_invisible">0</span>2</span>
+							<img class="dimension_icon_rep" src="REP-Lin.png" width="40" alt="Linear" title="Linear">
+							<img class="dimension_icon_scale" src="SCALE-Chron.png" width="40" alt="Chronological" title="Chronological">
+							<img class="dimension_icon_layout" src="LAYOUT-Fac.png" width="40" alt="Faceted" title="Faceted">
+							<strong>and</strong>
+							<span class="gallery_index"><span class="gallery_index_invisible">0</span>9</span>
+							<img class="dimension_icon_rep" src="REP-Lin.png" width="40" alt="Linear" title="Linear">
+							<img class="dimension_icon_scale" src="SCALE-Rel.png" width="40" alt="Relative" title="Relative">
+							<img class="dimension_icon_layout" src="LAYOUT-Fac.png" width="40" alt="Faceted" title="Faceted">
+						</p>
+
+						<div class="gif_container"><a href="SCALE-ChronLinFac-RelLinFac.gif" target="_blank"><img class="transition_gif" id="SCALE-ChronLinFac-RelLinFac" src="SCALE-ChronLinFac-RelLinFac.png" width="560"></a></div>
+						<p><strong>Transition type</strong>: Scale transition between <strong>Chronological</strong> and <strong>Relative</strong>.</p>
+						<p><strong>Data</strong>: <a href="https://www.flickr.com/photos/accurat/8961090259/" target="_blank">Visualising painters' lives (by Accurat)</a>, coloured by event type (lifespan, artistic period, travel, lover, son, daughter), faceted by painter.</p>
+					</div>
+				</div>
+
+				<div class="pub">
+					<div class="text">
+
+						<p>
+							<strong>Transition between: </strong>
+							<span class="gallery_index"><span class="gallery_index_invisible">0</span>2</span>
+							<img class="dimension_icon_rep" src="REP-Lin.png" width="40" alt="Linear" title="Linear">
+							<img class="dimension_icon_scale" src="SCALE-Chron.png" width="40" alt="Chronological" title="Chronological">
+							<img class="dimension_icon_layout" src="LAYOUT-Fac.png" width="40" alt="Faceted" title="Faceted">
+							<strong>and</strong>
+							<span class="gallery_index">12</span>
+							<img class="dimension_icon_rep" src="REP-Lin.png" width="40" alt="Linear" title="Linear">
+							<img class="dimension_icon_scale" src="SCALE-Log.png" width="40" alt="Logarithmic" title="Logarithmic">
+							<img class="dimension_icon_layout" src="LAYOUT-Fac.png" width="40" alt="Faceted" title="Faceted">
+						</p>
+
+						<div class="gif_container"><a href="SCALE-ChronLinFac-LogLinFac.gif" target="_blank"><img class="transition_gif" id="SCALE-ChronLinFac-LogLinFac" src="SCALE-ChronLinFac-LogLinFac.png" width="560"></a></div>
+						<p><strong>Transition type</strong>: Scale transition between <strong>Chronological</strong> and <strong>Logarithmic</strong>.</p>
+						<p><strong>Data</strong>: <a href="https://en.wikipedia.org/wiki/Timeline_of_United_States_military_operations" target="_blank">Timeline of United States military operations (Wikipedia)</a>, coloured and faceted by region.</p>
+					</div>
+				</div>
+
+				<div class="pub">
+					<div class="text">
+
+						<p>
+							<strong>Transition between: </strong>
+							<span class="gallery_index"><span class="gallery_index_invisible">0</span>2</span>
+							<img class="dimension_icon_rep" src="REP-Lin.png" width="40" alt="Linear" title="Linear">
+							<img class="dimension_icon_scale" src="SCALE-Chron.png" width="40" alt="Chronological" title="Chronological">
+							<img class="dimension_icon_layout" src="LAYOUT-Fac.png" width="40" alt="Faceted" title="Faceted">
+							<strong>and</strong>
+							<span class="gallery_index">14</span>
+							<img class="dimension_icon_rep" src="REP-Lin.png" width="40" alt="Linear" title="Linear">
+							<img class="dimension_icon_scale" src="SCALE-Seq.png" width="40" alt="Sequential" title="Sequential">
+							<img class="dimension_icon_layout" src="LAYOUT-Fac.png" width="40" alt="Faceted" title="Faceted">
+						</p>
+
+						<div class="gif_container"><a href="SCALE-ChronLinFac-SeqLinFac.gif" target="_blank"><img class="transition_gif" id="SCALE-ChronLinFac-SeqLinFac" src="SCALE-ChronLinFac-SeqLinFac.png" width="560"></a></div>
+						<p><strong>Transition type</strong>: Scale transition between <strong>Chronological</strong> and <strong>Sequential</strong>.</p>
+						<p><strong>Data</strong>: <a href="https://www.flickr.com/photos/accurat/8961090259/" target="_blank">Visualising painters' lives (by Accurat)</a>, coloured by event type (lifespan, artistic period, travel, lover, son, daughter), faceted by painter.</p>
+					</div>
+				</div>
+
+				<div class="pub">
+					<div class="text">
+
+						<p>
+							<strong>Transition between: </strong>
+							<span class="gallery_index"><span class="gallery_index_invisible">0</span>4</span>
+							<img class="dimension_icon_rep" src="REP-Rad.png" width="40" alt="Radial" title="Radial">
+							<img class="dimension_icon_scale" src="SCALE-Chron.png" width="40" alt="Chronological" title="Chronological">
+							<img class="dimension_icon_layout" src="LAYOUT-Uni.png" width="40" alt="Unified" title="Unified">
+							<strong>and</strong>
+							<span class="gallery_index">15</span>
+							<img class="dimension_icon_rep" src="REP-Rad.png" width="40" alt="Radial" title="Radial">
+							<img class="dimension_icon_scale" src="SCALE-Seq.png" width="40" alt="Sequential" title="Sequential">
+							<img class="dimension_icon_layout" src="LAYOUT-Uni.png" width="40" alt="Unified" title="Unified">
+						</p>
+
+						<div class="gif_container"><a href="SCALE-ChronRadUni-SeqRadUni.gif" target="_blank"><img class="transition_gif" id="SCALE-ChronRadUni-SeqRadUni" src="SCALE-ChronRadUni-SeqRadUni.png" width="560"></a></div>
+						<p><strong>Transition type</strong>: Scale transition between <strong>Chronological</strong> and <strong>Sequential</strong>.</p>
+						<p><strong>Data</strong>: Author's biographical data, coloured by activity type.</p>
+					</div>
+				</div>
+
+				<div class="pub">
+					<div class="text">
+
+						<p>
+							<strong>Transition between: </strong>
+							<span class="gallery_index"><span class="gallery_index_invisible">0</span>5</span>
+							<img class="dimension_icon_rep" src="REP-Rad.png" width="40" alt="Radial" title="Radial">
+							<img class="dimension_icon_scale" src="SCALE-Chron.png" width="40" alt="Chronological" title="Chronological">
+							<img class="dimension_icon_layout" src="LAYOUT-Fac.png" width="40" alt="Faceted" title="Faceted">
+							<strong>and</strong>
+							<span class="gallery_index">10</span>
+							<img class="dimension_icon_rep" src="REP-Rad.png" width="40" alt="Radial" title="Radial">
+							<img class="dimension_icon_scale" src="SCALE-Rel.png" width="40" alt="Relative" title="Relative">
+							<img class="dimension_icon_layout" src="LAYOUT-Fac.png" width="40" alt="Faceted" title="Faceted">
+						</p>
+
+						<div class="gif_container"><a href="SCALE-ChronRadFac-RelRadFac.gif" target="_blank"><img class="transition_gif" id="SCALE-ChronRadFac-RelRadFac" src="SCALE-ChronRadFac-RelRadFac.png" width="560"></a></div>
+						<p><strong>Transition type</strong>: Scale transition between <strong>Chronological</strong> and <strong>Relative</strong>.</p>
+						<p><strong>Data</strong>: <a href="https://www.flickr.com/photos/accurat/8961090259/" target="_blank">Visualising painters' lives (by Accurat)</a>, coloured by event type (lifespan, artistic period, travel, lover, son, daughter), faceted by painter.</p>
+					</div>
+				</div>
+
+				<div class="pub">
+					<div class="text">
+
+						<p>
+							<strong>Transition between: </strong>
+							<span class="gallery_index"><span class="gallery_index_invisible">0</span>5</span>
+							<img class="dimension_icon_rep" src="REP-Rad.png" width="40" alt="Radial" title="Radial">
+							<img class="dimension_icon_scale" src="SCALE-Chron.png" width="40" alt="Chronological" title="Chronological">
+							<img class="dimension_icon_layout" src="LAYOUT-Fac.png" width="40" alt="Faceted" title="Faceted">
+							<strong>and</strong>
+							<span class="gallery_index">16</span>
+							<img class="dimension_icon_rep" src="REP-Rad.png" width="40" alt="Radial" title="Radial">
+							<img class="dimension_icon_scale" src="SCALE-Seq.png" width="40" alt="Sequential" title="Sequential">
+							<img class="dimension_icon_layout" src="LAYOUT-Fac.png" width="40" alt="Faceted" title="Faceted">
+						</p>
+
+						<div class="gif_container"><a href="SCALE-ChronRadFac-SeqRadFac.gif" target="_blank"><img class="transition_gif" id="SCALE-ChronRadFac-SeqRadFac" src="SCALE-ChronRadFac-SeqRadFac.png" width="560"></a></div>
+						<p><strong>Transition type</strong>: Scale transition between <strong>Chronological</strong> and <strong>Sequential</strong>.</p>
+						<p><strong>Data</strong>: <a href="https://podio.com/site/creative-routines" target="_blank">The daily routines of famous creative people (by Podio)</a>, coloured by event type (sleep, creative work, food + leisure, exercise, admin, other), faceted by person.</p>
+					</div>
+				</div>
+
+				<div class="pub">
+					<div class="text">
+
+						<p>
+							<strong>Transition between: </strong>
+							<span class="gallery_index"><span class="gallery_index_invisible">0</span>9</span>
+							<img class="dimension_icon_rep" src="REP-Lin.png" width="40" alt="Linear" title="Linear">
+							<img class="dimension_icon_scale" src="SCALE-Rel.png" width="40" alt="Relative" title="Relative">
+							<img class="dimension_icon_layout" src="LAYOUT-Fac.png" width="40" alt="Faceted" title="Faceted">
+							<strong>and</strong>
+							<span class="gallery_index">14</span>
+							<img class="dimension_icon_rep" src="REP-Lin.png" width="40" alt="Linear" title="Linear">
+							<img class="dimension_icon_scale" src="SCALE-Seq.png" width="40" alt="Sequential" title="Sequential">
+							<img class="dimension_icon_layout" src="LAYOUT-Fac.png" width="40" alt="Faceted" title="Faceted">
+						</p>
+
+						<div class="gif_container"><a href="SCALE-RelLinFac-SeqLinFac.gif" target="_blank"><img class="transition_gif" id="SCALE-RelLinFac-SeqLinFac" src="SCALE-RelLinFac-SeqLinFac.png" width="560"></a></div>
+						<p><strong>Transition type</strong>: Scale transition between <strong>Relative</strong> and <strong>Sequential</strong>.</p>
+						<p><strong>Data</strong>: <a href="https://www.flickr.com/photos/accurat/8961090259/" target="_blank">Visualising painters' lives (by Accurat)</a>, coloured by event type (lifespan, artistic period, travel, lover, son, daughter), faceted by painter.</p>
+					</div>
+				</div>
+
+				<div class="pub">
+					<div class="text">
+
+						<p>
+							<strong>Transition between: </strong>
+							<span class="gallery_index">10</span>
+							<img class="dimension_icon_rep" src="REP-Rad.png" width="40" alt="Radial" title="Radial">
+							<img class="dimension_icon_scale" src="SCALE-Rel.png" width="40" alt="Relative" title="Relative">
+							<img class="dimension_icon_layout" src="LAYOUT-Fac.png" width="40" alt="Faceted" title="Faceted">
+							<strong>and</strong>
+							<span class="gallery_index">16</span>
+							<img class="dimension_icon_rep" src="REP-Rad.png" width="40" alt="Radial" title="Radial">
+							<img class="dimension_icon_scale" src="SCALE-Seq.png" width="40" alt="Sequential" title="Sequential">
+							<img class="dimension_icon_layout" src="LAYOUT-Fac.png" width="40" alt="Faceted" title="Faceted">
+						</p>
+
+						<div class="gif_container"><a href="SCALE-RelRadFac-SeqRadFac.gif" target="_blank"><img class="transition_gif" id="SCALE-RelRadFac-SeqRadFac" src="SCALE-RelRadFac-SeqRadFac.png" width="560"></a></div>
+						<p><strong>Transition type</strong>: Scale transition between <strong>Relative</strong> and <strong>Sequential</strong>.</p>
+						<p><strong>Data</strong>: <a href="https://en.wikipedia.org/wiki/List_of_epidemics" target="_blank">List of epidemic (Wikipedia)</a>, coloured by type of epidemic, faceted by region.</p>
+					</div>
+				</div>
+
+				<div class="pub">
+					<div class="text">
+
+						<p>
+							<strong>Transition between: </strong>
+							<span class="gallery_index">11</span>
+							<img class="dimension_icon_rep" src="REP-Lin.png" width="40" alt="Linear" title="Linear">
+							<img class="dimension_icon_scale" src="SCALE-Log.png" width="40" alt="Logarithmic" title="Logarithmic">
+							<img class="dimension_icon_layout" src="LAYOUT-Uni.png" width="40" alt="Unified" title="Unified">
+							<strong>and</strong>
+							<span class="gallery_index">13</span>
+							<img class="dimension_icon_rep" src="REP-Lin.png" width="40" alt="Linear" title="Linear">
+							<img class="dimension_icon_scale" src="SCALE-Seq.png" width="40" alt="Sequential" title="Sequential">
+							<img class="dimension_icon_layout" src="LAYOUT-Uni.png" width="40" alt="Unified" title="Unified">
+						</p>
+
+						<div class="gif_container"><a href="SCALE-LogLinUni-SeqLinUni.gif" target="_blank"><img class="transition_gif" id="SCALE-LogLinUni-SeqLinUni" src="SCALE-LogLinUni-SeqLinUni.png" width="560"></a></div>
+						<p><strong>Transition type</strong>: Scale transition between <strong>Logarithmic</strong> and <strong>Sequential</strong>.</p>
+						<p><strong>Data</strong>: <a href="http://bl.ocks.org/bunkat/2338034" target="_blank">Chronological diagram of Asia (by bunkat)</a>, coloured by China | Korea | Japan.</p>
+					</div>
+				</div>
+
+				<div class="pub">
+					<div class="text">
+
+						<p>
+							<strong>Transition between: </strong>
+							<span class="gallery_index">12</span>
+							<img class="dimension_icon_rep" src="REP-Lin.png" width="40" alt="Linear" title="Linear">
+							<img class="dimension_icon_scale" src="SCALE-Log.png" width="40" alt="Logarithmic" title="Logarithmic">
+							<img class="dimension_icon_layout" src="LAYOUT-Fac.png" width="40" alt="Faceted" title="Faceted">
+							<strong>and</strong>
+							<span class="gallery_index">14</span>
+							<img class="dimension_icon_rep" src="REP-Lin.png" width="40" alt="Linear" title="Linear">
+							<img class="dimension_icon_scale" src="SCALE-Seq.png" width="40" alt="Sequential" title="Sequential">
+							<img class="dimension_icon_layout" src="LAYOUT-Fac.png" width="40" alt="Faceted" title="Faceted">
+						</p>
+
+						<div class="gif_container"><a href="SCALE-LogLinFac-SeqLinFac.gif" target="_blank"><img class="transition_gif" id="SCALE-LogLinFac-SeqLinFac" src="SCALE-LogLinFac-SeqLinFac.png" width="560"></a></div>
+						<p><strong>Transition type</strong>: Scale transition between <strong>Logarithmic</strong> and <strong>Sequential</strong>.</p>
+						<p><strong>Data</strong>: <a href="https://en.wikipedia.org/wiki/List_of_epidemics" target="_blank">List of epidemics (Wikipedia)</a>, coloured by type of epidemic, faceted by region.</p>
+					</div>
+				</div>
+
+				<div class="pub">
+					<div class="text">
+
+						<p>
+							<strong>Transition between: </strong>
+							<span class="gallery_index">13</span>
+							<img class="dimension_icon_rep" src="REP-Lin.png" width="40" alt="Linear" title="Linear">
+							<img class="dimension_icon_scale" src="SCALE-Seq.png" width="40" alt="Sequential" title="Sequential">
+							<img class="dimension_icon_layout" src="LAYOUT-Uni.png" width="40" alt="Unified" title="Unified">
+							<strong>and</strong>
+							<span class="gallery_index">20</span>
+							<img class="dimension_icon_rep" src="REP-Lin.png" width="40" alt="Linear" title="Linear">
+							<img class="dimension_icon_scale" src="SCALE-SeqIntDur.png" width="40" alt="Sequential with Interim Duration" title="Sequential with Interim Duration">
+							<img class="dimension_icon_layout" src="LAYOUT-Uni.png" width="40" alt="Unified" title="Unified">
+						</p>
+
+						<div class="gif_container"><a href="SCALE-SeqLinUni-SeqIntDurLinUni.gif" target="_blank"><img class="transition_gif" id="SCALE-SeqLinUni-SeqIntDurLinUni" src="SCALE-SeqLinUni-SeqIntDurLinUni.png" width="560"></a></div>
+						<p><strong>Transition type</strong>: Scale transition between <strong>Sequential</strong> and <strong>Sequential + Interim Duration</strong>.</p>
+						<p><strong>Data</strong>: <a href="https://en.wikipedia.org/wiki/Tstrongplate:Timeline_US_Presidents" target="_blank">Timeline US Presidents (Wikipedia)</a>, coloured by political party.</p>
+					</div>
+				</div>
+
+				<!--LAYOUT TRANSITIONS-->
+
+				<div class="pub">
+					<div class="text">
+						<span id="layout" class="anchor"></span>
+						<h2>LAYOUT TRANSITIONS</h2>
+					</div>
+				</div>
+
+				<div class="pub">
+					<div class="text">
+
+						<p>
+							<strong>Transition between: </strong>
+							<span class="gallery_index"><span class="gallery_index_invisible">0</span>1</span>
+							<img class="dimension_icon_rep" src="REP-Lin.png" width="40" alt="Linear" title="Linear">
+							<img class="dimension_icon_scale" src="SCALE-Chron.png" width="40" alt="Chronological" title="Chronological">
+							<img class="dimension_icon_layout" src="LAYOUT-Uni.png" width="40" alt="Unified" title="Unified">
+							<strong>and</strong>
+							<span class="gallery_index"><span class="gallery_index_invisible">0</span>2</span>
+							<img class="dimension_icon_rep" src="REP-Lin.png" width="40" alt="Linear" title="Linear">
+							<img class="dimension_icon_scale" src="SCALE-Chron.png" width="40" alt="Chronological" title="Chronological">
+							<img class="dimension_icon_layout" src="LAYOUT-Fac.png" width="40" alt="Faceted" title="Faceted">
+						</p>
+
+						<div class="gif_container"><a href="LAYOUT-ChronLinUni-ChronLinFac.gif" target="_blank"><img class="transition_gif" id="LAYOUT-ChronLinUni-ChronLinFac" src="LAYOUT-ChronLinUni-ChronLinFac.png" width="560"></a></div>
+						<p><strong>Transition type</strong>: Layout transition between <strong>Unified</strong> and <strong>Faceted</strong>.</p>
+						<p><strong>Data</strong>: <a href="https://en.wikipedia.org/wiki/List_of_epidemics" target="_blank">List of epidemics (Wikipedia)</a>, coloured by type of epidemic, faceted by region.</p>
+					</div>
+				</div>
+
+				<div class="pub">
+					<div class="text">
+
+						<p>
+							<strong>Transition between: </strong>
+							<span class="gallery_index"><span class="gallery_index_invisible">0</span>1</span>
+							<img class="dimension_icon_rep" src="REP-Lin.png" width="40" alt="Linear" title="Linear">
+							<img class="dimension_icon_scale" src="SCALE-Chron.png" width="40" alt="Chronological" title="Chronological">
+							<img class="dimension_icon_layout" src="LAYOUT-Uni.png" width="40" alt="Unified" title="Unified">
+							<strong>and</strong>
+							<span class="gallery_index"><span class="gallery_index_invisible">0</span>3</span>
+							<img class="dimension_icon_rep" src="REP-Lin.png" width="40" alt="Linear" title="Linear">
+							<img class="dimension_icon_scale" src="SCALE-Chron.png" width="40" alt="Chronological" title="Chronological">
+							<img class="dimension_icon_layout" src="LAYOUT-Seg.png" width="40" alt="Segmented" title="Segmented">
+						</p>
+
+						<div class="gif_container"><a href="LAYOUT-ChronLinUni-ChronLinSeg.gif" target="_blank"><img class="transition_gif" id="LAYOUT-ChronLinUni-ChronLinSeg" src="LAYOUT-ChronLinUni-ChronLinSeg.png" width="560"></a></div>
+						<p><strong>Transition type</strong>: Layout transition between <strong>Unified</strong> and <strong>Segmented</strong>.</p>
+						<p><strong>Data</strong>: <a href="https://en.wikipedia.org/wiki/Timeline_of_United_States_military_operations" target="_blank">Timeline of United States military operations (Wikipedia)</a>, coloured by region, segmented by century.</p>
+					</div>
+				</div>
+
+				<div class="pub">
+					<div class="text">
+
+						<p>
+							<strong>Transition between: </strong>
+							<span class="gallery_index"><span class="gallery_index_invisible">0</span>4</span>
+							<img class="dimension_icon_rep" src="REP-Rad.png" width="40" alt="Radial" title="Radial">
+							<img class="dimension_icon_scale" src="SCALE-Chron.png" width="40" alt="Chronological" title="Chronological">
+							<img class="dimension_icon_layout" src="LAYOUT-Uni.png" width="40" alt="Unified" title="Unified">
+							<strong>and</strong>
+							<span class="gallery_index"><span class="gallery_index_invisible">0</span>5</span>
+							<img class="dimension_icon_rep" src="REP-Rad.png" width="40" alt="Radial" title="Radial">
+							<img class="dimension_icon_scale" src="SCALE-Chron.png" width="40" alt="Chronological" title="Chronological">
+							<img class="dimension_icon_layout" src="LAYOUT-Fac.png" width="40" alt="Faceted" title="Faceted">
+						</p>
+
+						<div class="gif_container"><a href="LAYOUT-ChronRadUni-ChronRadFac.gif" target="_blank"><img class="transition_gif" id="LAYOUT-ChronRadUni-ChronRadFac" src="LAYOUT-ChronRadUni-ChronRadFac.png" width="560"></a></div>
+						<p><strong>Transition type</strong>: Layout transition between <strong>Unified</strong> and <strong>Faceted</strong>.</p>
+						<p><strong>Data</strong>: <a href="https://en.wikipedia.org/wiki/Timeline_of_United_States_military_operations" target="_blank">Timeline of United States military operations (Wikipedia)</a>, coloured and faceted by region.</p>
+					</div>
+				</div>
+
+				<div class="pub">
+					<div class="text">
+
+						<p>
+							<strong>Transition between: </strong>
+							<span class="gallery_index"><span class="gallery_index_invisible">0</span>4</span>
+							<img class="dimension_icon_rep" src="REP-Rad.png" width="40" alt="Radial" title="Radial">
+							<img class="dimension_icon_scale" src="SCALE-Chron.png" width="40" alt="Chronological" title="Chronological">
+							<img class="dimension_icon_layout" src="LAYOUT-Uni.png" width="40" alt="Unified" title="Unified">
+							<strong>and</strong>
+							<span class="gallery_index"><span class="gallery_index_invisible">0</span>6</span>
+							<img class="dimension_icon_rep" src="REP-Rad.png" width="40" alt="Radial" title="Radial">
+							<img class="dimension_icon_scale" src="SCALE-Chron.png" width="40" alt="Chronological" title="Chronological">
+							<img class="dimension_icon_layout" src="LAYOUT-Seg.png" width="40" alt="Segmented" title="Segmented">
+						</p>
+
+						<div class="gif_container"><a href="LAYOUT-ChronRadUni-ChronRadSeg.gif" target="_blank"><img class="transition_gif" id="LAYOUT-ChronRadUni-ChronRadSeg" src="LAYOUT-ChronRadUni-ChronRadSeg.png" width="560"></a></div>
+						<p><strong>Transition type</strong>: Layout transition between <strong>Unified</strong> and <strong>Segmented</strong>.</p>
+						<p><strong>Data</strong>: <a href="https://en.wikipedia.org/wiki/Timeline_of_United_States_military_operations" target="_blank">Timeline of United States military operations (Wikipedia)</a>, coloured and faceted by region.</p>
+					</div>
+				</div>
+
+				<div class="pub">
+					<div class="text">
+
+						<p>
+							<strong>Transition between: </strong>
+							<span class="gallery_index">11</span>
+							<img class="dimension_icon_rep" src="REP-Lin.png" width="40" alt="Linear" title="Linear">
+							<img class="dimension_icon_scale" src="SCALE-Log.png" width="40" alt="Logarithmic" title="Logarithmic">
+							<img class="dimension_icon_layout" src="LAYOUT-Uni.png" width="40" alt="Unified" title="Unified">
+							<strong>and</strong>
+							<span class="gallery_index">12</span>
+							<img class="dimension_icon_rep" src="REP-Lin.png" width="40" alt="Linear" title="Linear">
+							<img class="dimension_icon_scale" src="SCALE-Log.png" width="40" alt="Logarithmic" title="Logarithmic">
+							<img class="dimension_icon_layout" src="LAYOUT-Fac.png" width="40" alt="Faceted" title="Faceted">
+						</p>
+
+						<div class="gif_container"><a href="LAYOUT-LogLinUni-LogLinFac.gif" target="_blank"><img class="transition_gif" id="LAYOUT-LogLinUni-LogLinFac" src="LAYOUT-LogLinUni-LogLinFac.png" width="560"></a></div>
+						<p><strong>Transition type</strong>: Layout transition between <strong>Unified</strong> and <strong>Faceted</strong>.</p>
+						<p><strong>Data</strong>: <a href="https://en.wikipedia.org/wiki/Timeline_of_United_States_military_operations" target="_blank">Timeline of United States military operations (Wikipedia)</a>, coloured and faceted by region.</p>
+					</div>
+				</div>
+
+				<div class="pub">
+					<div class="text">
+
+						<p>
+							<strong>Transition between: </strong>
+							<span class="gallery_index">13</span>
+							<img class="dimension_icon_rep" src="REP-Lin.png" width="40" alt="Linear" title="Linear">
+							<img class="dimension_icon_scale" src="SCALE-Seq.png" width="40" alt="Sequential" title="Sequential">
+							<img class="dimension_icon_layout" src="LAYOUT-Uni.png" width="40" alt="Unified" title="Unified">
+							<strong>and</strong>
+							<span class="gallery_index">14</span>
+							<img class="dimension_icon_rep" src="REP-Lin.png" width="40" alt="Linear" title="Linear">
+							<img class="dimension_icon_scale" src="SCALE-Seq.png" width="40" alt="Sequential" title="Sequential">
+							<img class="dimension_icon_layout" src="LAYOUT-Fac.png" width="40" alt="Faceted" title="Faceted">
+						</p>
+
+						<div class="gif_container"><a href="LAYOUT-SeqLinUni-SeqLinFac.gif" target="_blank"><img class="transition_gif" id="LAYOUT-SeqLinUni-SeqLinFac" src="LAYOUT-SeqLinUni-SeqLinFac.png" width="560"></a></div>
+						<p><strong>Transition type</strong>: Layout transition between <strong>Unified</strong> and <strong>Faceted</strong>.</p>
+						<p><strong>Data</strong>: <a href="http://bl.ocks.org/rengel-de/5603464" target="_blank">Lives of Western Philosophers (by rengel-de)</a>, coloured and faceted by region.</p>
+					</div>
+				</div>
+
+				<div class="pub">
+					<div class="text">
+
+						<p>
+							<strong>Transition between: </strong>
+							<span class="gallery_index">15</span>
+							<img class="dimension_icon_rep" src="REP-Rad.png" width="40" alt="Radial" title="Radial">
+							<img class="dimension_icon_scale" src="SCALE-Seq.png" width="40" alt="Sequential" title="Sequential">
+							<img class="dimension_icon_layout" src="LAYOUT-Uni.png" width="40" alt="Unified" title="Unified">
+							<strong>and</strong>
+							<span class="gallery_index">16</span>
+							<img class="dimension_icon_rep" src="REP-Rad.png" width="40" alt="Radial" title="Radial">
+							<img class="dimension_icon_scale" src="SCALE-Seq.png" width="40" alt="Sequential" title="Sequential">
+							<img class="dimension_icon_layout" src="LAYOUT-Fac.png" width="40" alt="Faceted" title="Faceted">
+						</p>
+
+						<div class="gif_container"><a href="LAYOUT-SeqRadUni-SeqRadFac.gif" target="_blank"><img class="transition_gif" id="LAYOUT-SeqRadUni-SeqRadFac" src="LAYOUT-SeqRadUni-SeqRadFac.png" width="560"></a></div>
+						<p><strong>Transition type</strong>: Layout transition between <strong>Unified</strong> and <strong>Faceted</strong>.</p>
+						<p><strong>Data</strong>: Author's record collection by release year, coloured by genre, faceted by format (LP vs. CD).</p>
+					</div>
+				</div>
+
+				<div class="pub">
+					<div class="text">
+
+						<p>
+							<strong>Transition between: </strong>
+							<span class="gallery_index">17</span>
+							<img class="dimension_icon_rep" src="REP-Spi.png" width="40" alt="Spiral" title="Spiral">
+							<img class="dimension_icon_scale" src="SCALE-Seq.png" width="40" alt="Sequential" title="Sequential">
+							<img class="dimension_icon_layout" src="LAYOUT-Uni.png" width="40" alt="Unified" title="Unified">
+							<strong>and</strong>
+							<span class="gallery_index">18</span>
+							<img class="dimension_icon_rep" src="REP-Spi.png" width="40" alt="Spiral" title="Spiral">
+							<img class="dimension_icon_scale" src="SCALE-Seq.png" width="40" alt="Sequential" title="Sequential">
+							<img class="dimension_icon_layout" src="LAYOUT-Fac.png" width="40" alt="Faceted" title="Faceted">
+						</p>
+
+						<div class="gif_container"><a href="LAYOUT-SeqSpiUni-SeqSpiFac.gif" target="_blank"><img class="transition_gif" id="LAYOUT-SeqSpiUni-SeqSpiFac" src="LAYOUT-SeqSpiUni-SeqSpiFac.png" width="560"></a></div>
+						<p><strong>Transition type</strong>: Layout transition between <strong>Unified</strong> and <strong>Faceted</strong>.</p>
+						<p><strong>Data</strong>: <a href="https://en.wikipedia.org/wiki/List_of_epidemics" target="_blank">List of epidemics (Wikipedia)</a>, coloured by type of epidemic, faceted by region.</p>
+					</div>
+				</div>
+
+				<!--CURVE DRAWING-->
+
+				<div class="pub">
+					<div class="text">
+						<span id="curve" class="anchor"></span>
+						<h2>ARBITRARY CURVE DRAWING</h2>
+					</div>
+				</div>
+
+				<div class="pub">
+					<div class="text">
+						<p>
+							<span class="gallery_index">20</span>
+							<img class="dimension_icon_rep" src="REP-Cur.png" width="40" alt="Arbitrary" title="Arbitrary">
+							<img class="dimension_icon_scale" src="SCALE-Seq.png" width="40" alt="Sequential" title="Sequential">
+							<img class="dimension_icon_layout" src="LAYOUT-Uni.png" width="40" alt="Unified" title="Unified">
+						</p>
+
+						<div class="gif_container"><a href="SeqCurUni-drawing.gif" target="_blank"><img class="transition_gif" id="SeqCurUni-drawing" src="SeqCurUni-drawing.png" width="560"></a></div>
+						<p><strong>Data</strong>: <a href="https://en.wikipedia.org/wiki/Tstrongplate:Timeline_US_Presidents" target="_blank">Timeline US Presidents (Wikipedia)</a>, coloured by political party.</p>
+					</div>
+				</div>
+
+			</div>
+			<!--/right-column-->
+		</div>
+		<!--/content-->
+	</div>
+
+	<script>
+    $(function() {
+        $('.transition_gif').hover(
+            function() {
+							var gif_src = $(this).attr("id");
+              $(this).attr("src", gif_src + ".gif");
+            },
+            function() {
+							var gif_src = $(this).attr("id");
+              $(this).attr("src", gif_src + ".png");
+            }
+        );
+    });
+	</script>
+
+	<!--/content-wrapper-->
+</body>
+</html>
