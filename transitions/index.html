@@ -14,14 +14,6 @@
 	<script>
     $(function() {
 
-			$('.transition_gif').load(
-					function() {
-						var gif_src = $(this).attr("id");
-						var image = new Image();
-						image.src = gif_src + ".gif";
-					}
-			);
-
       $('.transition_gif').hover(
           function() {
 						var gif_src = $(this).attr("id");
