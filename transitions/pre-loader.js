@@ -1,3 +1,13 @@
+/*
+
+	attribution:
+
+	See "Preloading images using javascript, the right way and without frameworks"
+	Published by Dimitar Christoff on 18 May '12
+	http://fragged.org/preloading-images-using-javascript-the-right-way-and-without-frameworks_744.html
+
+*/
+
 ;(function(){
 	'use strict';
 
