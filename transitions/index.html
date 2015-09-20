@@ -11,6 +11,30 @@
 
 <body>
 
+	<script>
+    $(function() {
+
+			$('.transition_gif').load(
+					function() {
+						var gif_src = $(this).attr("id");
+						var image = new Image();
+						image.src = gif_src + ".gif";
+					}
+			);
+
+      $('.transition_gif').hover(
+          function() {
+						var gif_src = $(this).attr("id");
+            $(this).attr("src", gif_src + ".gif");
+          },
+          function() {
+						var gif_src = $(this).attr("id");
+            $(this).attr("src", gif_src + ".png");
+          }
+      );
+    });
+	</script>
+
 	<div id="content-wrapper">
 
 		<div id="header-wrapper">
@@ -26,7 +50,7 @@
 				<!--/logo-->
 				<div id="nav" class="right">
 					<a href="#transitions_top">top</a>
-					<a href="../index.html">supplemental home</a>
+					<a href="../">supplemental home</a>
 				</div>
 				<!--/nav-->
 			</div>
@@ -865,21 +889,6 @@
 		</div>
 		<!--/content-->
 	</div>
-
-	<script>
-    $(function() {
-        $('.transition_gif').hover(
-            function() {
-							var gif_src = $(this).attr("id");
-              $(this).attr("src", gif_src + ".gif");
-            },
-            function() {
-							var gif_src = $(this).attr("id");
-              $(this).attr("src", gif_src + ".png");
-            }
-        );
-    });
-	</script>
 
 	<!--/content-wrapper-->
 </body>
