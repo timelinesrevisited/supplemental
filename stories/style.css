@@ -25,6 +25,11 @@
   /*margin-bottom: 10px;*/
 }
 
+video {
+	-webkit-clip-path: inset(1% 2.5% 1% 2.5%);
+	clip-path: inset(1% 2.5% 1% 2.5%);
+}
+
 /* Typeface, Text Size, Colour */
 body {
 font-family: "Century Gothic", "Helvetica Neue", Helvetica, Frutiger,geneva,verdana,trebuchet,arial,sans-serif;
@@ -222,7 +227,7 @@ margin: 0px 0px 10px 0px;
 width: 120px;
 }
 
-.gif_container {
+.video_container {
   /*-webkit-border-radius:10px;
   -moz-border-radius:10px;
   border-radius:10px;
@@ -234,12 +239,6 @@ width: 120px;
   border: 1px solid black;
   margin-top: 10px;
   margin-bottom: 10px;
-}
-
-.gif_container:hover {
-  box-shadow: 1px 1px 3px 0px black;
-  border: 1px solid #2A5DB0;
-  cursor: pointer;
 }
 
 .gallery_index {
