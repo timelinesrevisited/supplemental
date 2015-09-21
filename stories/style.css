@@ -25,6 +25,11 @@
   /*margin-bottom: 10px;*/
 }
 
+.wide_video {
+	-webkit-clip-path: inset(1% 1% 1% 1%);
+	clip-path: inset(1% 1% 1% 1%);
+}
+
 video {
 	-webkit-clip-path: inset(1% 2.5% 1% 2.5%);
 	clip-path: inset(1% 2.5% 1% 2.5%);
