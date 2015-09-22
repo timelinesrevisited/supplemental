@@ -35,6 +35,23 @@ video {
 	clip-path: inset(1% 2.5% 1% 2.5%);
 }
 
+.example {
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+  box-shadow: 1px 1px 3px 0px grey;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  /*-webkit-clip-path: inset(10% 2.5% 10% 2.5%);
+	clip-path: inset(10% 2.5% 10% 2.5%);*/
+}
+
+.example:hover {
+  box-shadow: 1px 1px 3px 0px black;
+  border: 1px solid #2A5DB0;
+  cursor: pointer;
+}
+
 /* Typeface, Text Size, Colour */
 body {
 font-family: "Century Gothic", "Helvetica Neue", Helvetica, Frutiger,geneva,verdana,trebuchet,arial,sans-serif;
