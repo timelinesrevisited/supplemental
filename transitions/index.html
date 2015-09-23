@@ -8,6 +8,8 @@
 	<script>window["_GOOG_TRANS_EXT_VER"] = "1";</script>
 	<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
 	<script type="text/javascript" src="pre-loader.js"></script>
+	<script src="jquery.growl.js" type="text/javascript"></script>
+	<link href="jquery.growl.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -61,6 +63,7 @@
 			http://fragged.org/preloading-images-using-javascript-the-right-way-and-without-frameworks_744.html
 
 		*/
+		$.growl({ title: "Note:", message: "This page will preload the transition animations in the background. Depending on the speed of your connection, it may take a moment for all of the animations to load." });
 
 		// instantiate the pre-loader with an onProgress and onComplete handler
 		new preLoader(imagesArray, {
@@ -76,6 +79,7 @@
 	    onComplete: function(loaded, errors){
 	        // fires when whole list is done. cache is primed.
 	        console.log('done', loaded);
+					$.growl({ title: "Success!", message: "Transition animations are now loaded. Hover over any of the images below to view a looped animated transition between the pair of visualizations" });
 	        // imageContainer.style.display = 'block';
 
 	        if (errors){
