@@ -261,8 +261,8 @@ width: 120px;
 }
 
 .transition_gif {
-	-webkit-clip-path: inset(10% 2.5% 10% 2.5%);
-	clip-path: inset(10% 2.5% 10% 2.5%);
+	-webkit-clip-path: inset(1% 1% 1% 1%);
+	/*clip-path: inset(10% 2.5% 10% 2.5%);*/
 }
 
 #right-column {
