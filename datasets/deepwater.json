@@ -1,0 +1,236 @@
+[
+    {
+        "start_date":"2010-04-20",
+        "end_date":"",
+        "content_text":"Deepwater Horizon explosion. BP's Deepwater Horizon platform explodes, killing 11 workers while starting the largest oil spill in U.S. history. The platform burned for several days and sank into the Gulf of Mexico about 50 miles southeast of Louisiana",
+        "category":"well"
+    },
+    {
+        "start_date":"2010-04-23",
+        "end_date":"",
+        "content_text":"Coast Guard ends rescue attempt. Coast Guard ended the search for the missing oilmen, ",
+        "category":"well"
+    },
+    {
+        "start_date":"2010-04-24",
+        "end_date":"",
+        "content_text":"Leaking oil discovered. The Coast Guard, using a robotic device at the sea floor, discovers that oil is leaking from the well, a development that it called a \"game-changer.\" It estimated about 1,000 barrels a day leaking from the well.",
+        "category":"well"
+    },
+    {
+        "start_date":"2010-04-28",
+        "end_date":"",
+        "content_text":"Leak estimate raised by 5 times to 5,000. In a hastily called news conference, Rear Adm. Mary E. Landry of the Coast Guard said a scientist from the National Oceanic and Atmospheric Administration had concluded that oil is leaking at the rate of 5,000 barrels a day, not 1,000 as had been estimated\". - NYT",
+        "category":"well"
+    },
+    {
+        "start_date":"2010-05-01",
+        "end_date":"",
+        "content_text":"White House Correspondents' Dinner. Obama goes to the WHCD before heading to the Gulf",
+        "category":"politics"
+    },
+    {
+        "start_date":"2010-05-02",
+        "end_date":"",
+        "content_text":"Obama visits the Gulf Coast. ",
+        "category":"cleanup"
+    },
+    {
+        "start_date":"2010-04-29",
+        "end_date":"",
+        "content_text":"Government steps up response. Obama pledges \"every resource\" to respond to the fill as Homeland Security Secretary Janet Napolitano calls the event \"a spill of national significance,\" which gives her the option of calling in the Defense Department Obama also says that BP is responsible for the cleanup",
+        "category":"cleanup"
+    },
+    {
+        "start_date":"2010-04-30",
+        "end_date":"",
+        "content_text":"First indication spill could be much larger. Mobile Press Register reports on  a NOAA document that says the spill could be \"an order of magnitude\" bigger than the 5,000 barrels / day estimate",
+        "category":"well"
+    },
+    {
+        "start_date":"1990-08-01",
+        "end_date":"",
+        "content_text":"Oil Pollution Act of 1990. A post-Exxon Valdez law now holds the owner of a rig or vessel responsible for the cleanup",
+        "category":"cleanup"
+    },
+    {
+        "start_date":"2010-04-29",
+        "end_date":"",
+        "content_text":"Louisiana declares state of emergency. ",
+        "category":"environment"
+    },
+    {
+        "start_date":"2010-05-02",
+        "end_date":"2010-08-31",
+        "content_text":"BP drills relief well. BP begins drilling a relief well in a process that is expected to end in late August. ",
+        "category":"well"
+    },
+    {
+        "start_date":"2010-05-06",
+        "end_date":"",
+        "content_text":"First oil washes ashore. The first oil washes ashore at Chandaleur Islands off the Louisiana coast, an uninhabited barrier island\t",
+        "category":"environment"
+    },
+    {
+        "start_date":"2010-05-07",
+        "end_date":"",
+        "content_text":"Containment dome fails. The containment dome attempted by BP fails because it gets clogged by frozen hydrocarbons\t",
+        "category":"well"
+    },
+    {
+        "start_date":"2010-05-03",
+        "end_date":"",
+        "content_text":"Fishing ban begins. Fishing ban declared for at least 10 days. It was later expanded and extended",
+        "category":"environment"
+    },
+    {
+        "start_date":"2010-05-11",
+        "end_date":"2010-05-12",
+        "content_text":"Congress grills oil executives. Senate Energy Committee calls oil executives from BP, TransOcean (the operator of the rig) and Halliburton (which created the blowout preventer) into Washington. Sen. Bingham calls the spill a \"cascade of errors\". ",
+        "category":"regulation"
+    },
+    {
+        "start_date":"2010-05-24",
+        "end_date":"2010-05-28",
+        "content_text":"BP attempts \"top kill\" to shut off flow. Part of the well is shut off using the \"top kill\"method. The gush is reduced to about ",
+        "category":"well"
+    },
+    {
+        "start_date":"2010-05-05",
+        "end_date":"",
+        "content_text":"BP acknowledges much bigger spill. BP tells Congress that the spill might be 60,000 barrels a day, not the 5,000 that it had previously said",
+        "category":"well"
+    },
+    {
+        "start_date":"2010-05-06",
+        "end_date":"",
+        "content_text":"MMS questions new drilling in Alaska. Interior official S. Elizabeth Birnbaum asks Shell Oil to provide more details on disaster prevention at a new project in Alaska",
+        "category":"regulation"
+    },
+    {
+        "start_date":"2004",
+        "end_date":"",
+        "content_text":"Investigators warnings on blowout preventers. ",
+        "category":"regulation"
+    },
+    {
+        "start_date":"2009-09-14",
+        "end_date":"",
+        "content_text":"BP and others resist stricter regulation. BP said that \"extensive, prescriptive\" regulations were not necessary to prevent disasters",
+        "category":"regulation"
+    },
+    {
+        "start_date":"2009-06-17",
+        "end_date":"",
+        "content_text":"MMS proposes stricter safety rules. MMS proposes a new \"safety and emergency management system\" in the Federal Register (referenced in BP's comments)",
+        "category":"regulation"
+    },
+    {
+        "start_date":"2010-05-11",
+        "end_date":"",
+        "content_text":"Interior proposes breaking up MMS. Interior secretary Ken Salazar said he would split MMS into one environmental and safetey group and a separate office for leasing and revenue collection",
+        "category":"regulation"
+    },
+    {
+        "start_date":"2010-05-30",
+        "end_date":"",
+        "content_text":"BP says \"top kill\" failed. BP acknowledges that its \"top kill\" method failed to stem the gusher, and said it would move on to other methods",
+        "category":"well"
+    },
+    {
+        "start_date":"2010-05-28",
+        "end_date":"",
+        "content_text":"Obama visits the Gulf Coast. In a visit to the Gulf, Obama says that there will be many false starts and no one knows how to fix the well",
+        "category":"well"
+    },
+    {
+        "start_date":"1998-12-01",
+        "end_date":"2001-02-28",
+        "content_text":"Deepwater well built in S. Korea. Deepwater Horizon rig is built by Hyundai Heavy Industries Shipyard, at a cost of $560 million",
+        "category":"well"
+    },
+    {
+        "start_date":"2010-04-27",
+        "end_date":"",
+        "content_text":"BP announces profit increases. BP posts record profit because of rising oil prices",
+        "category":"well"
+    },
+    {
+        "start_date":"2010-05-04",
+        "end_date":"",
+        "content_text":"BP executives in closed Congressional meeting. Senate wants to increase liability for spills from $75 million to $10 billion as BP executives go to a closed meeting. Obama agrees",
+        "category":"politics"
+    },
+    {
+        "start_date":"2010-05-05",
+        "end_date":"2010-05-24",
+        "content_text":"White House begins publishing daily response . The White House first publishes an extensive timeline of all administration responses, which it updated throughout May.",
+        "category":"politics"
+    },
+    {
+        "start_date":"2010-05-13",
+        "end_date":"",
+        "content_text":"NYT reports on MMS vs. EPA permits. The New York Times reports that the MMS overruled warnings from EPA to give BP and others permits without required environmental studies",
+        "category":"regulation"
+    },
+    {
+        "start_date":"2010-05-18",
+        "end_date":"",
+        "content_text":"Obama announces commission to investigate. ",
+        "category":"regulation"
+    },
+    {
+        "start_date":"2010-05-30",
+        "end_date":"",
+        "content_text":"I would like my life back. Tony Hayward tells reporters \" There is no one who wants this over more than I do. I would like my life back\" ",
+        "category":"politics"
+    },
+    {
+        "start_date":"2010-06-03",
+        "end_date":"",
+        "content_text":"BP goes through with dividends. BP says it will go ahead with a $10 billion shareholder payout in dividends, setting off British-US tensions ",
+        "category":"politics"
+    },
+    {
+        "start_date":"2010-06-16",
+        "end_date":"",
+        "content_text":"BP agrees to escrow account of $20 billion. BP agrees to set aside $20 billion to be distributed independently as a down payment on victim compensation",
+        "category":"politics"
+    },
+    {
+        "start_date":"2010-06-17",
+        "end_date":"",
+        "content_text":"Tony Hayward in Congress. Bart Stupak and others accuse Hayward of \"stonewalling\" their investigation.",
+        "category":"politics"
+    },
+    {
+        "start_date":"2010-06-20",
+        "end_date":"",
+        "content_text":"Hayward attends boat race. ",
+        "category":"politics"
+    },
+    {
+        "start_date":"2010-06-22",
+        "end_date":"",
+        "content_text":"Control of BP response given to Bob Dudley. BP replaces Hayward with American Bob Dudley for the response activities. Hayward stays out of sight",
+        "category":"politics"
+    },
+    {
+        "start_date":"2010-06-30",
+        "end_date":"",
+        "content_text":"Hurricane Alex. Cleanup and drilling activity stalled as Alex creates dangerous waters.",
+        "category":"cleanup"
+    },
+    {
+        "start_date":"2010-05-27",
+        "end_date":"2010-07-09",
+        "content_text":"Drilling moratorium in Gulf. Interior imposes a moratorium on deepwater drilling in the Outer Continental Shelf, but an appeals court later overturns it.",
+        "category":"regulation"
+    },
+    {
+        "start_date":"2010-07-12",
+        "end_date":"2010-11-30",
+        "content_text":"New drilling moratorium. Interior said it could end sooner if the concerns are met.",
+        "category":"regulation"
+    }
+]
