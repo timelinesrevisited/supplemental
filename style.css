@@ -1,0 +1,551 @@
+@charset "UTF-8";
+/* CSS InfoVis Group on cs.ubc.ca */
+
+.dimension_icon_rep {
+  position: relative;
+  background-color: #FFF;
+  border: 1.5px solid #2EAAE1;
+  /*transform: translateY(25%);*/
+  /*margin-bottom: 10px;*/
+}
+
+.dimension_icon_scale {
+  position: relative;
+  background-color: #FFF;
+  border: 1.5px solid #E84E1B;
+  /*transform: translateY(25%);*/
+  /*margin-bottom: 10px;*/
+}
+
+.dimension_icon_layout {
+  position: relative;
+  background-color: #FFF;
+  border: 1.5px solid #94C11E;
+  /*transform: translateY(25%);*/
+  /*margin-bottom: 10px;*/
+}
+
+/* Typeface, Text Size, Colour */
+body {
+font-family: "Century Gothic", "Helvetica Neue", Helvetica, Frutiger,geneva,verdana,trebuchet,arial,sans-serif;
+font-size: 12px;
+line-height: normal;
+}
+
+h1 {
+font-variant: small-caps;
+font-family:"Century Gothic", "Helvetica Neue", Helvetica, Frutiger,geneva,verdana,trebuchet,arial,sans-serif;
+font-size: 24px;
+font-weight: bold;
+margin: 0px 0px 0px 0;
+color: #333333;
+}
+
+h2 {
+font-variant: small-caps;
+font-family:"Century Gothic", "Helvetica Neue", Helvetica, Frutiger,geneva,verdana,trebuchet,arial,sans-serif;
+font-size: 16px;
+font-weight: bold;
+color: #333333;
+margin: 0px 0 10px 0;
+}
+
+#nav a {
+font-variant: small-caps;
+font-family:"Century Gothic", "Helvetica Neue", Helvetica, Frutiger,geneva,verdana,trebuchet,arial,sans-serif;
+text-decoration: none;
+font-size: 16px;
+color: #2A5DB0;
+text-align: right;
+padding: 0 0 0 15px;
+}
+
+#nav a:hover{
+color: #3296CF;
+text-decoration: underline;
+}
+
+h1 a {
+color: #333333;
+text-decoration: none;
+}
+
+h1 a:hover{
+color: #333333;
+text-decoration: none;
+}
+
+a {
+color: #2A5DB0;
+text-decoration: none;
+}
+
+a:hover{
+color: #3296CF;
+text-decoration: underline;
+}
+
+body {
+color: #333333;
+background: #fff;
+text-align: left;
+
+}
+
+#page-title{
+font-family: "Century Gothic", "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
+font-size: 36px;
+width: 450px;
+height: 37px;
+clear:both;
+}
+
+#tagline{
+font-family: "Century Gothic", "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
+font-size: 14px;
+width: 450px;
+height: 20px;
+}
+
+
+/* Layout - Sizes and Positioning */
+
+p {
+margin: 0px 0px 6px 0px;
+}
+
+.left {
+float: left;
+}
+
+.right {
+text-align: right;
+float: right;
+}
+
+.block{
+margin: 25px 0px;
+margin-bottom: 30px;
+}
+
+#content-wrapper{
+max-width: 720px;
+min-width: 720px;
+width: 720px;
+margin: 0 auto 20px;
+}
+
+
+#content{
+max-width: 720px;
+min-width: 720px;
+width: 720px;
+margin: 10px 0 0 0;
+padding-top:75px;
+}
+
+/* Header file */
+
+#header-wrapper{
+width: 100%;
+position: fixed;
+top: 0px;
+left: 0px;
+margin:0;
+padding:0;
+background: #FFFFFF;
+z-index: 10;
+}
+
+#header{
+max-width: 715px;
+min-width: 715px;
+width: 715px;
+min-height: 75px;
+margin:0 auto 0px;
+padding:0;
+background: #FFFFFF;
+border-bottom: 1px solid #ccc;
+}
+
+#logo{
+width: 200px;
+height: 50px;
+float: left;
+}
+
+#nav{
+width: 400px;
+height: 20px;
+float: right;
+text-align: right;
+padding: 40px 0px 0px 0px;
+}
+
+#title {
+float:left;
+width: 430px;
+font-size: 32px;
+margin: 15px 0px 15px 0px;
+letter-spacing: 0.5px;
+padding: 0 0 0 0px;
+}
+
+.anchor {
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    z-index: -1;
+    visibility: hidden;
+    margin-top: -85px;
+}
+
+/* Main page (index) */
+
+#left-column {
+width: 120px;
+float: left;
+background: #dddddd;
+border-radius:10px 0px 0px 10px;
+padding: 10px 10px 10px 10px;
+}
+
+#people-images {
+float: right;
+text-align:right;
+}
+
+#left-column .people-thumb {
+float:right;
+margin: 0px 0px 10px 0px;
+width: 120px;
+}
+
+.gif_container {
+  /*-webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+  box-shadow: 1px 1px 3px 0px grey;*/
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+  box-shadow: 1px 1px 3px 0px grey;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.gif_container:hover {
+  box-shadow: 1px 1px 3px 0px black;
+  border: 1px solid #2A5DB0;
+  /*cursor: pointer;*/
+}
+
+.gallery_index {
+  background-color: #F5D328;
+  border: 1.5px solid black;
+  border-radius: 10px; /* one half of ( (border * 2) + height + padding ) */
+  color: black;
+  font: bold 10px "Century Gothic", Helvetica, Verdana, Tahoma;
+  height: 30px;
+  max-width: 30px;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  position: relative;
+  bottom: 7.5px;
+}
+
+.gallery_index_invisible {
+  opacity: 0;
+}
+
+.transition_gif {
+	-webkit-clip-path: inset(1% 1% 1% 1%);
+	/*clip-path: inset(10% 2.5% 10% 2.5%);*/
+}
+
+#right-column {
+float: left;
+width: 560px;
+margin-bottom: 50px;
+border-left: 1px solid #ccc;
+padding: 0px 0px 0px 15px;
+
+}
+
+.bio{
+width: 549px;
+margin: 0px 0px 0px 0px;
+padding: 10px 0px 10px 0px;
+float: left;
+}
+
+.bio .text{
+float: left;
+width: 549px;
+}
+
+.news{
+width: 565px;
+margin: 0px 0px 0px -10px;
+padding: 0px 0px 0px 10px;
+float: left;
+background: #eeffff;
+border-radius:10px 10px 10px 10px;
+}
+
+.pub{
+width: 555px;
+margin: 0px 0px 10px 0px;
+border-bottom: 1px solid #ccc;
+padding: 0px 0px 10px 0px;
+float: left;
+}
+
+.pub-one-column{
+width: 720px;
+float: left;
+margin: 10px 0px 10px 0px;
+border-bottom: 1px solid #999999;
+}
+
+.pub .text{
+float: left;
+width: 560px;
+}
+
+.pub .thumb{
+float: right;
+width: 140px;
+}
+
+
+/* Used for Publications page */
+.pub-one-column .text{
+float: left;
+width: 470px;
+margin: 15px;
+}
+
+.pub-one-column .thumb{
+float: left;
+width: 200px;
+margin: 10px;
+}
+
+.pub-one-column .venue .name{
+font-style: italic;
+}
+
+.emph{
+font-weight: bold;
+}
+
+.title{
+font-weight: bold;
+}
+
+#publications .award{
+font-style: italic;
+color: #669933;
+}
+
+#projects {
+float:left;
+width: 470px;
+margin-left:0px;
+}
+
+.footer {
+margin-bottom: 50px;
+}
+
+#projects .summary{
+padding: 0;
+margin: 5px 25px 15px 25px;
+}
+
+/* For individual project pages */
+#project-one-column{
+  background: #fff;
+  max-width: 700px;
+  min-width: 600px;
+  height: 100%;
+  margin: 0 auto 0 20px;
+  padding: 5px 20px 15px 20px;
+
+  font-size: 12px;
+  line-height: 16px;
+  text-align: justify;
+}
+
+#project-one-column .authors {
+font-size: 17px;
+}
+
+#project-one-column .figure {
+margin: 25px 0px;
+margin-bottom: 30px;
+}
+#project-one-column .figure .image {
+margin-bottom: 6px;
+}
+#project-one-column .project-one-column .figure img {
+max-width: 625px; max-height: 400px;
+}
+#project-one-column .figure .imglink img {
+margin-bottom: 6px; border: 1px solid white;
+}
+#project-one-column .figure .imglink img:hover {
+border: 1px solid #0000FF;
+}
+#project-one-column .figure .caption {
+font-size: 11px;
+}
+
+.citation {
+margin-bottom: 20px; float: left;
+}
+.citation .thumb {
+float: left;
+padding-right: 12px;
+margin-top: 3px;
+}
+.citation .thumb img {
+border: 1px solid #fff;
+}
+.citation .pub {
+border-bottom: none;
+}
+.citation .pub .title {
+font-weight: bold;
+}/* display: inline; }*/
+.citation .pub .authors {
+font-size: 12px !important;
+}/* display: inline; }*/
+.citation .pub .venue {
+display: inline;
+}
+.citation .pub .venue .name {
+font-style: italic;
+}
+.citation .pub .note {
+font-weight: bold;
+}
+
+.block{
+margin: 25px 0px;
+margin-bottom: 30px;
+}x
+
+/*body {
+
+ margin: 2% 25% 2% 25%;
+ font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+ color: #000;
+ font-size: 13px;
+ line-height: 16px;
+ vertical-align: middle;
+ background-color : #C8C8C8;
+ }
+
+#top {
+  clear: both;
+  border : 1px solid #999;
+  background-color : #EEE;
+  padding-left : 5%;
+  padding-right : 5%;
+}
+
+#content {
+  clear: both;
+  padding : 2% 5% 2% 5%;
+  border : 1px solid #999;
+  vertical-align: middle;
+  background-color : #FFF;
+}
+
+hr {
+clear: both;
+color: #fff;
+line-height: 0px;
+}
+
+#abstract { width: 65%; margin-right: 2%; float: right;
+
+}
+
+#citation { clear: both;
+
+}
+
+#project {  margin: 2% 2% 2% 2%; width: 25%; border: 1px solid #999;  float: left;
+
+}
+
+#contact { width: 25%; margin-right: 5%; float: right;
+
+}
+
+#homecontact { width: 25%; margin-left: 2%; float: left;
+}
+
+#calendar { margin-left: 5%; width: 60%; margin-right: 5%; border: 1px solid #999;  float: left;
+
+}
+
+#container { width: 100%; clear: both;
+
+}
+
+#footer {
+border : 1px solid #999;
+  background-color : #EEE;
+  font-size: small;
+   clear: both;
+}
+
+#flag {
+
+margin-left: 0%; margin-right: 0%;
+width: 11%; height: 7%;
+
+}
+
+h1 {
+ font-size: 24px;
+ font-weight: bold;
+ margin: 15px 0 15px 0;
+ color: #333333;
+ clear: both;
+}
+
+h2 {
+ font-variant: small-caps;
+ font-size: 16px;
+ font-weight: bold;
+ color: #333333;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ clear: both;
+}
+
+h3 {
+ font-size: 14px;
+ font-weight: bold;
+ color: #333333;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ clear: both;
+}
+
+a, a:visited, a:hover {
+ color: #555555;
+ text-decoration: none;
+}
+
+
+a:hover, a.nav:hover {
+ color: #669933;
+}*/
